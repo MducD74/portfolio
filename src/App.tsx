@@ -25,7 +25,7 @@ const projects: Project[] = [
     role: 'Fullstack Developer',
     description: 'White-label multi-channel messaging platform for Telcos and Aggregators.',
     image: '/portfolio/peacom.png',
-    tags: ['Node.js', 'React', 'MySQL', 'Redis'],
+    tags: ['Node.js', 'React', 'MySQL', 'Redis', 'Microservices', 'Nginx'],
     live: 'https://peacom.co',
     detail: 'A messaging ecosystem connecting Zalo, Facebook Messenger, WhatsApp, Viber and Telegram through reliable REST APIs, Node.js services, MySQL and Redis.'
   },
@@ -34,7 +34,7 @@ const projects: Project[] = [
     role: 'Fullstack Developer',
     description: 'AI platform that generates videos and images through Byteplus integration.',
     image: '/portfolio/coco.png',
-    tags: ['Node.js', 'React', 'Redis', 'MySQL'],
+    tags: ['Node.js', 'React', 'Redis', 'MySQL', 'Microservices', 'Nginx'],
     live: 'https://cocostudio.io',
     detail: 'Full-stack AI media product integrating Byteplus APIs for video and image generation, with a focus on performance and smooth workflows.'
   },
