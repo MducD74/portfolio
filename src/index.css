@@ -301,6 +301,12 @@ h3 {
     animation-delay: -1s
 }
 
+.chips span:nth-child(5) {
+    top: 52%;
+    right: 30%;
+    animation-delay: -1s
+}
+
 @keyframes float {
     50% {
         transform: translateY(-16px);

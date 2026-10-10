@@ -15,7 +15,7 @@ const skills = [
   ['Frontend', ['React.js', 'HTML', 'CSS', 'Tailwind CSS', 'Bootstrap']],
   ['Database', ['MySQL', 'PostgreSQL', 'MongoDB', 'SQL Server']],
   ['Cache / Architecture', ['Redis', 'Microservices', 'REST APIs']],
-  ['DevOps / Infra', ['Git', 'Linux Server Management', 'Azure Portal', 'Azure Blob']],
+  ['DevOps / Infra', ['Git', 'Linux Server Management', 'Nginx']],
   ['Mobile', ['Flutter', 'React Native']],
 ]
 
@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: 'MMP Platform',
     role: 'Fullstack Developer',
     description: 'White-label multi-channel messaging platform for Telcos and Aggregators.',
-    image: '/peacom.png',
+    image: '/portfolio/peacom.png',
     tags: ['Node.js', 'React', 'MySQL', 'Redis'],
     live: 'https://peacom.co',
     detail: 'A messaging ecosystem connecting Zalo, Facebook Messenger, WhatsApp, Viber and Telegram through reliable REST APIs, Node.js services, MySQL and Redis.'
@@ -33,7 +33,7 @@ const projects: Project[] = [
     title: 'Coco Studio',
     role: 'Fullstack Developer',
     description: 'AI platform that generates videos and images through Byteplus integration.',
-    image: '/coco.png',
+    image: '/portfolio/coco.png',
     tags: ['Node.js', 'React', 'Redis', 'MySQL'],
     live: 'https://cocostudio.io',
     detail: 'Full-stack AI media product integrating Byteplus APIs for video and image generation, with a focus on performance and smooth workflows.'
@@ -42,15 +42,15 @@ const projects: Project[] = [
     title: 'FAITH-CONNECT',
     role: 'Intern Fullstack Developer',
     description: 'Church management platform on web and mobile.',
-    image: '/faith.png',
-    tags: ['ASP.NET MVC', 'PostgreSQL', 'Flutter'],
+    image: '/portfolio/faith.png',
+    tags: ['ASP.NET MVC', 'PostgreSQL', 'Flutter', 'Angular'],
     live: 'https://faithconnect.my',
     detail: 'A responsive web and Flutter mobile platform for managing church communities, posts, events and certificates.'
   },
 ]
 
 const roles = ['Backend Engineer', 'Full-Stack Builder', 'Systems Thinker']
-const marquee = ['Node.js', 'React', 'MySQL', 'Redis', 'PostgreSQL', 'MongoDB', 'Spring Boot', 'ASP.NET', 'Flutter', 'Azure', 'Tailwind', 'Linux']
+const marquee = ['Node.js', 'React', 'MySQL', 'Redis', 'PostgreSQL', 'MongoDB', 'Spring Boot', 'ASP.NET', 'Flutter', 'Nginx', 'Tailwind', 'Linux']
 
 function Icon({children}: { children: string }) {
   return <span className="icon" aria-hidden="true">{children}</span>
@@ -69,7 +69,7 @@ function Reveal({children, delay = 0, className = ''}: {
 }
 
 export default function App() {
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark')
+  const [theme, setTheme] = useState<'dark' | 'light'>('light')
   const [language, setLanguage] = useState<'EN' | 'VI'>('EN')
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeRole, setActiveRole] = useState(0)
@@ -137,7 +137,7 @@ export default function App() {
       <section id="hero" className="hero">
         <div className="blob one"/>
         <div className="blob two"/>
-        <div className="chips"><span>Node.js</span><span>React</span><span>Redis</span><span>MySQL</span></div>
+        <div className="chips"><span>Node.js</span><span>React</span><span>Redis</span><span>MySQL</span><span>Nginx</span></div>
         <div className="wrap"><p className="eyebrow">Full-Stack Software Engineer</p><h2>Hi, I&apos;m <span
           className="gradient">Tran Dang Minh Duc</span> <br></br> I build full-stack products.</h2><p
           className="role">&gt; <b>{roles[activeRole]}</b><i/></p>
