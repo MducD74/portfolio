@@ -158,7 +158,7 @@ export default function App() {
             Full-Stack Web Developer with 1 year of experience building applications using ReactJS, Node.js, Java (Spring Boot), and C# (.NET). Proficient in using MySQL and Redis, with practical expertise in integrating complex core functionalities, including payment gateways and AI services.
             </p></Reveal><Reveal
             delay={1} className="card span-4"><h3>Education</h3><p><strong>Danang University of Science and Technology
-            (DUT)</strong></p><p className="muted">Information Technology · GPA 7.4/10</p>
+            (DUT)</strong></p><p className="muted">Information Technology</p>
           </Reveal>{[['1+', 'year of experience'], ['3+', 'projects']].map(([num, label], i) => <Reveal delay={i}
                                                                                                         className="card span-6"
                                                                                                         key={label}>
